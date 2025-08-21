@@ -184,7 +184,7 @@ data.sort((a,b) => a.rank - b.rank).forEach(level => {
   div.innerHTML = `
     <h2>[${level.rank}] — ${level.name}</h2>
     <div class="info">
-      <div>Status: ${level.verified || 'Brak'}</div>
+      <div>Verified: ${level.verified || 'Brak'}</div>
       <div>Verifier: ${level.verifier || 'Brak'}</div>
       <div>ID: ${level.id || 'Brak'}</div>
       <div>Info: ${level.info || 'Brak'}</div>
